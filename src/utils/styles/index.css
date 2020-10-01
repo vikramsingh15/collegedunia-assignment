@@ -1,0 +1,281 @@
+html {
+    font-size: 64.5%;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: DINPro;
+    font-weight: 400;
+    font-size: 1.33rem;
+    line-height: 1.7;
+    color: #444444;
+    padding: 3rem;
+}
+
+
+.heading {
+    font-size: 1.85rem;
+    font-weight: 500;
+    line-height: 0.97;
+    
+}
+
+
+/* card */
+
+.card {
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    /* height: 30rem; */
+}
+
+
+/* card image */
+
+.card__img {
+    position: relative;
+}
+
+.card__img img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 0;
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: #000;
+    opacity: .4;
+    top: 0;
+    left: 0;
+}
+
+/* card content */
+
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.card__content--right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.clg-name {
+    font-size: 1.85rem;
+    font-weight: bold;
+    line-height: .95;
+}
+
+.font-normal {
+    font-weight: 600;
+}
+
+.font-light {
+    font-weight: 600;
+    color: #adadad;
+}
+
+.font-green {
+    font-weight: bold;
+    color: #37b396;
+}
+
+.font-green-blue {
+    font-weight: bold;
+    color: #4bb89e;
+}
+
+.font-login {
+    font-weight: bold;
+    color: #1999d2;
+}
+
+
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-small {
+    font-size: 1.1rem;
+}
+
+.offer-text--box {
+    background: #4bb89f75;
+    /* position: absolute; */
+    left: 0;
+    padding: 1rem;
+    margin-left: -1rem;
+    /* opacity: .6; */
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 96%;
+
+}
+
+mt-2 {
+    margin-top: .5rem;
+}
+
+
+.famous-nearest-place--box {
+    margin: 0.5rem 0;
+}
+
+.discount {
+    background: #dd1c26;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    color: white;
+    padding: 1px 6px;
+
+
+}
+
+.bullet {
+    margin-right: 2px;
+}
+
+
+.original-fees {
+    font-weight: 600;
+}
+
+.original-fees--box {
+    position: relative;
+    top: -6px;
+}
+
+
+.discounted-fees {
+    color: #dd1c26;
+    font-size: 2.85rem;
+    font-weight: bold;
+    /* line-height: 1.1rem; */
+    margin-bottom: 0;
+}
+
+.fees-cycle {
+    /* margin-top: 0; */
+    line-height: 0rem;
+    font-family: Myriad Pro;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.dicounted-fees--box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: -1.2rem;
+}
+
+.amenties-box {
+    margin-top: 2rem;
+}
+
+.rating i {
+    font-size: 11px;
+}
+
+.rating {
+    margin-left: 8px;
+    position: relative;
+    top: -2px;
+
+}
+
+
+.promoted-flag {
+    background: #68a7ff;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 51%, 0% 0%);
+    z-index: 100;
+    width: 15rem;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: -1.4rem;
+    padding: .3rem;
+
+}
+
+.promoted {
+    text-align: center;
+}
+
+.rating-remarks-box {
+    color: white;
+    background: #f5a626;
+    z-index: 100;
+    width: 7.5rem;
+    height: 6rem;
+    border-radius: 3.8px;
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+}
+
+.rating-remarks-box p {
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 600;
+
+}
+
+.rating-remarks-box--rating span {
+    font-size: 18.5px;
+    font-weight: bold;
+}
+
+
+.tags-card {
+    position: absolute;
+    bottom: 1rem;
+    z-index: 100;
+}
+
+.bg-white {
+    border-radius: 16.5px;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: .3rem 1rem;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    z-index: 100;
+}
+
+
+.ranking-box {
+    position: absolute;
+    color: #fff;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 100;
+}
+
+
+.famous-nearest-place--text :nth-child(1) {
+    display: inline;
+}
+
+.text-bold {
+    color: #444444;
+}
