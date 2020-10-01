@@ -1,6 +1,6 @@
 ## PURPOSE OF PROJECT
 
-    Collegedunia Assignment
+    Collegedunia Assignment stage 1
 
 This is react.js application.
 
