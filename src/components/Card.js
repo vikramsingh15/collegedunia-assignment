@@ -94,9 +94,7 @@ function Card({ college }) {
 
             <div className='offer-text--box'>
               <p className='offer-text font-bold'>
-                <Markup
-                  content={addClassNameOfferText(offertext)}
-                />
+                <Markup content={addClassNameOfferText(offertext)} />
               </p>
             </div>
           </div>
@@ -121,7 +119,7 @@ function Card({ college }) {
             <div className='amenties-box'>
               <p className='amenties--a d-inline font-green'>
                 {amenties[0]}
-                <span className='font-green'> &#9679; </span>
+                <span className='font-green'> &#8226; </span>
               </p>
               <p className='amenties--b d-inline font-green'>{amenties[1]}</p>
             </div>
